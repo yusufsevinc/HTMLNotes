@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <style>
+        #idBtnTemizle{
+            margin-left: 20px;
+        }
+       
+    </style>
+    <body> 
+        <h1>ÜYE KAYIT FORMU</h1>
+        <form name = "kayit" action="../bicim.html" method="GET">
+          
+            Ad Soyad <br>
+            <input type="text"  name="textAdSoyad" maxlength="11" required > 
+            <br>
+            Yaşınız
+            <br>
+            <input type="number" name="textYas" required>
+            <br>
+            E-mail 
+            <br>
+            <input type="email" name="textMail" required>
+            <br>
+            Web Siteniz <br>
+            <input type="url" name="textWeb" >
+            <br>
+            <!--İnput typelar-->
+            Renk Seçin
+            <br>
+            <input type="color" >
+            <br>
+            <br>
+            <input type="submit" value="Kayıt Ekle" name="btnKayit" id="idBtnKayit">
+            <input type="reset" value="Temizle" id="idBtnTemizle">
+       
+     </form>
+     <br>
+     <h1>ÜYE KAYIT FORMU(TABLOLU)</h1>
+     <form name = "kayitTablo" action="../bicim.html" method="GET">
+        <Table >
+            <caption style="font-size: 25px;">Üye Kayıt Formu</caption>
+            <tbody>
+                <tr><th>Ad soyad</th><td><input id="adSoyad" type="text"  size="20" required></td></tr>
+                <tr><th>Yaşınız</th><td><input type="number" ></td></tr>
+                <tr><th>E-mail</th><td><input type="email" required
+                    placeholder="ornek@gmail.com"></td></tr>
+                <tr><th>Web Siteniz</th><td><input type="url" ></td></tr>
+                <tr><th>Hakkınızda</th><td><textarea name="textHakkinda" id="hakkinda" cols="18" rows="4"></textarea></td></tr>
+                <tr><th>Renk Seçin</th><td><input type="color"></td></tr>
+
+                <tr><td></td><td ><input type="submit" value="Kayıt Ekle"> 
+                    <input type="reset" value="Temizle" style="margin-left: 5px;">
+                </td></tr>
+            </tbody>
+        </Table>
+    </form>
+   
+    </body>
+</html>

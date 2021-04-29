@@ -1,0 +1,18 @@
+• Form oluşturmak için <form> tagı kullanılır.
+• Forma isim vermek için name, forma girilen verilerin hangi sayfaya
+gönderileceğini belirlemek için action, verilerin hedef sayfaya
+gönderilme yöntemini belirlemek için ise method özelliği kullanılır. 
+
+Ortak Özellikler
+• size: form elemanının genişliği
+• value: form elemanının değeri
+• placeholder: form elemanında bir açıklama metni görünmesini sağlar.
+• name: form elemanının benzersiz adı.
+• id: form elemanının tanım kodu. css veya JS kodu uygulamak için kullanılır.
+• autofocus: sayfa açıldığında fare imlecinin form elemanını aktif etmesini sağlar.
+• autocomplete: formlara girilen verilerin daha önce girilen veriler dikkate
+  alınarak tamamlanmasını sağlar.
+• maxlenght: form elemanına girilebilecek maksimum karakter miktarını belirler.
+• required: form elemanın mutlaka doldurulması gerektiğini belirtir. form
+elemanı boş bırakılırsa hata mesajı alırsınız.
+• disabled: form elemanının pasif hale getirilmesini ve kullanılmamasını sağlar.

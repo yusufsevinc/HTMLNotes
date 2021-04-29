@@ -1,0 +1,62 @@
+#iletisimDiv{
+  
+   
+   width: auto;
+   height: 200px;
+  margin-left: 155px;
+   margin-top: 60px;
+    position: relative;
+   
+    
+}
+
+#adres{
+    margin-left: 60px;
+    float: left;
+}
+
+#telefon{
+    margin-left: 60px;
+    float: left;
+}
+
+#mail{
+    margin-left: 60px;
+    float: left;
+}
+#likendin{
+    margin-left: 60px;
+    float: left;
+}
+#instagram {
+    margin-left: 60px;
+    float: left;
+}
+.baglanti{
+    color: red;
+    float: left;
+}
+.Iconiletisim{
+    width: 70px;
+}
+#resim{
+    margin-top: 15px;
+    width: 50px;
+}
+
+.text{
+   width: 200px;
+    
+}
+#form{
+   
+    position: relative;
+    width: 300px;
+    margin: auto;
+
+}
+
+.pIletisim{
+    font-weight: bold;
+
+}

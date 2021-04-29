@@ -1,0 +1,41 @@
+#dersler{
+    float: left;
+    margin-top: 40px;
+    margin-left: 60px;
+    
+}
+.baslik{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:30px ;
+    color: blue;
+}
+#dersler ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:20px ;
+}
+
+#İlgilendikleri{
+    margin-top: 40px;
+
+    float: left;
+    margin-left: 120px;
+   
+}
+
+#İlgilendikleri ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:20px ;
+}
+#İlgilendikleri a{
+    color:cornflowerblue;
+    text-decoration-line: underline;
+    
+}
+#İlgilendikleri a:hover{
+    color: red;
+    text-decoration-line: none;
+    
+}

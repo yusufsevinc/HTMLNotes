@@ -1,0 +1,35 @@
+#resim{
+    position: relative;
+    margin-top: 30px;
+}
+.menu{
+    text-decoration-line: none;
+    color:white;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.menu:hover{
+
+   
+    color:cyan;
+
+}
+#menuBar{
+    background-color: black;
+    position: relative;
+    padding: 15px;
+}
+#hakkinda{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: bold;
+}
+#isim{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+

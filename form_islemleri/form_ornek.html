@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../CSS/form_ornek.css">
+
+    </head>
+    <body>
+        <style>
+            #resim{
+                margin-top: 15px;
+                width: 50px;
+            }
+
+            .text{
+               width: 200px;
+                
+            }
+        </style>
+        <H1>Buradan bize ulaşabilirisiniz</H1>
+        <form action="form.html">
+            <table>
+            
+                <tbody>
+                    <tr><th>Ad Soyad </th><td><input class="text" type="text" required></td></tr>
+                    <tr><th>E-mail</th><td><input class="text" type="email" placeholder="ornek@sevinc" required></td></tr>
+                    <tr><th>İleti</th><td><textarea class="text"  name="ileti" id="idIleti" rows="4" maxlength="100" placeholder="Maksimum 100 karaketer" ></textarea></td></tr>
+                    <tr>
+                        <th></th>
+                        <td><input id="resim" type="image" src="../images/send.png"> <a id="iletisim"  href="#">Telefonla ulaş </a></td>
+                    </tr>                    
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>

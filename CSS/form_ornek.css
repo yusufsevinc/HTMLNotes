@@ -1,0 +1,12 @@
+#iletisim:link{
+    color: #000;
+    margin-left: 25px;
+    font-size: 20px;
+    padding-top: 25px;
+    text-decoration-line: none;
+}
+
+#iletisim:hover{
+    color:red;
+    text-decoration-line: underline;
+}
